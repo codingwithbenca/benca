@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebenca's Unique Web Design Showcase</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, rgba(160, 196, 255, 0.7), rgba(251, 194, 235, 0.7)); /* Gradient background */
+          
+            color: #333;
+            text-align: center; /* Center text */
+        }
+        header {
+            background-color: rgba(76, 175, 80, 0.8); /* Semi-transparent Green */
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: inline-block; /* Center section */
+        }
+        .highlight {
+            background-color: #e7f5e9; /* Light green background */
+            border-left: 5px solid #4CAF50; /* Green border */
+            padding: 10px;
+            margin: 20px 0;
+            width: 90%; /* Limit width for centering */
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Center projects */
+            margin-top: 20px; /* Space above projects */
+        }
+        .project {
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: calc(30% - 40px); /* Responsive width */
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .project img {
+            max-width: 100%; /* Responsive image */
+            border-radius: 5px; /* Rounded corners */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .project:hover {
+            transform: scale(1.05); /* Slight zoom on hover */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .computer-setup {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .computer-icon {
+            margin: 10px;
+            text-align: center;
+        }
+        .computer-icon i {
+            font-size: 40px; /* Icon size */
+            color: #4CAF50; /* Icon color */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(76, 175, 80, 0.8); /* Semi-transparent Green */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+            text-align: left; /* Left align form elements */
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Benca's Unique Web Design Showcase</h1>
+
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m Ebenca, a passionate web developer specializing in creating unique and engaging websites. My designs are not just visually appealing; they are user-centric and functional. I believe in bringing creativity and innovation to every project.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="SHOWCASE.PNG" alt="Project One"> <!-- Replace with actual image URL -->
+                <h3>Project One</h3>
+                <p>A brief description of your first project.</p>
+                <a href="link-to-your-live-project-1.html" target="_blank">View Live</a> <!-- Link to live project -->
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project Two"> <!-- Replace with actual image URL -->
+                <h3>Project Two</h3>
+                <p>A brief description of your second project.</p>
+                <a href="link-to-your-live-project-2.html" target="_blank">View Live</a> <!-- Link to live project -->
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Project Three"> <!-- Replace with actual image URL -->
+                <h3>Project Three</h3>
+                <p>A brief description of your third project.</p>
+                <a href="link-to-your-live-project-3.html" target="_blank">View Live</a> <!-- Link to live project -->
+            </div>
+        </div>
+    </section>
+
+    <section id="computer-setup">
+        <h2>My Computer Setup</h2>
+        <div class="computer-setup">
+            <div class="computer-icon">
+                <i class="fas fa-laptop"></i>
+                <p>Laptop</p>
+            </div>
+            <div class="computer-icon">
+                <i class="fas fa-desktop"></i>
+                <p>Desktop</p>
+            </div>
+            <div class="computer-icon">
+                <i class="fas fa-keyboard"></i>
+                <p>Keyboard</p>
+            </div>
+            <div class="computer-icon">
+                <i class="fas fa-mouse"></i>
+                <p>Mouse</p>
+            </div>
+            <div class="computer-icon">
+                <i class="fas fa-headphones"></i>
+                <p>Headphones</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="choose-me" class="highlight">
+        <h2>Choose Me for Your Next Project!</h2>
+        <p>I bring a unique perspective and a fresh approach to web design. My commitment to excellence ensures that every project I take on meets the highest standards.</p>
+        <p>Here’s why you should choose me:</p>
+        <ul>
+            <li>Creative and unique designs</li>
+            <li>User-friendly interfaces</li>
+            <li>Responsive and mobile-friendly websites</li>
+        </ul>
+        <p>Check out one of my live projects <a href="link-to-your-live-project.html" target="_blank">here</a>.</p> <!-- Link to your live project -->
+    </section>
+
+   
+
+    <footer>
+        <p>&copy; 2024 Ebenca. All rights reserved.</p>
+    </footer>
+</body>
+</html>
